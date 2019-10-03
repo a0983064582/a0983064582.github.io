@@ -18,6 +18,7 @@
     height: 250px;
     float: left;
     position: fixed;
+    text-align: center;
 }
 
 #nav ul{padding-left:0px;
@@ -70,4 +71,18 @@ margin-right: -2px;
 
 #nav li:hover a{
     color:cornflowerblue;
+}
+
+div.img{
+    margin: 5px;
+    float:left;
+    text-align: center;
+    border:1px solid gray;
+}
+
+.img img{
+    width: 175px;
+    margin:5px;
+    height: 100px;
+    object-fit:cover;
 }
